@@ -3,26 +3,56 @@ import React from 'react';
 
 const timelineData = [
     {
-        title: "Software Engineering (volunteer)",
+        title: "Outsourcify",
+        // title: "Software Engineering (volunteer)",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Applied Digital Technology | Feb 2021 - Feb 2025",
+        date: "Outsourcify Co. Ltd., Bangkok | January 2025 - April 2025",
+        // date: "Applied Digital Technology | Feb 2021 - Feb 2025",
         description: [
-            "Developed a Talent Pool Database platform for organization, enabling efficient management, match and search of employee profiles and skillsets",
-            "Used: Figma, React, TailwindCSS, Java-Spring Boot, Typescript, PostgreSQL, Git for version control and Code Collaboration",
+            "Developed and reviewed web and mobile platforms designed to help users evaluate and improve their ability to achieve their desired goals.",
+            "Used: Figma, Nuxt, PHP, MySQL, REST APIs, Git for version control and Code Collaboration",
         ],
+        // description: [
+        //     "Developed a Talent Pool Database platform for organization, enabling efficient management, match and search of employee profiles and skillsets",
+        //     "Used: Figma, React, TailwindCSS, Java-Spring Boot, Typescript, PostgreSQL, Git for version control and Code Collaboration",
+        // ],
     },
     {
-        title: "Web Application Developer (volunteer)",
+        title: "MFU-Senior Project 1 & 2 (ATA IT - Talent Pool Database)",
+        // title: "Web Application Developer (volunteer)",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "KTP compassion | March 2025 - present",
+        date: "Mae Fah Luang University, Chiang Rai | Feb 2024 - May 2024",
+        // date: "KTP compassion | March 2025 - present",
         description: [
-            "Managed web app for organization and for hackathon competition.",
+            "Developed a Talent Pool Database platform for ATA IT, enabling efficient management, match and search of employee profiles and skillsets",
+            "Used: Figma, React, TailwindCSS, Java-Spring Boot, Typescript, PostgreSQL, Git for version control and Code Collaboration",
+        ],
+        // description: [
+        //     "Managed web app for organization and for hackathon competition.",
+        //     "Used: Vue, Nuxt, Node, Javascript, MongoDB, Git for version control and Code Collaboration",
+        // ],
+    },
+    {
+        title: "School of Applied Digital Technology",
+        // location: "Mae Fah Luang University, Chiang Rai",
+        // date: "Feb 2024 - present",
+        date: "Mae Fah Luang University, Chiang Rai | August 17 - 18, 2024",
+        description: [
+            "Participated in hackathon competition at Mae Fah Luang University.",
             "Used: Vue, Nuxt, Node, Javascript, MongoDB, Git for version control and Code Collaboration",
         ],
     },
     {
+        // title: "Mobile developer (MovieMM)",
+        // // location: "Mae Fah Luang University, Chiang Rai",
+        // // date: "Feb 2024 - present",
+        // date: "Freelance | January 2023 - May 2023",
+        // description: [
+        //     "Developed a review Movie platform, designed to help user rate and improve their desiring on what they watch.",
+        //     "Used: Figma, Flutter, Firebase, Dart, REST APIs, Git for version control and Code Collaboration",
+        // ],
         title: "Agoda Tech Camp Day",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
@@ -33,20 +63,10 @@ const timelineData = [
         ],
     },
     {
-        title: "Mobile developer (MovieMM)",
+        title: "MFU CITS (part-time)",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Freelance | January 2023 - May 2023",
-        description: [
-            "Developed a review Movie platform, designed to help user rate and improve their desiring on what they watch.",
-            "Used: Figma, Flutter, Firebase, Dart, REST APIs, Git for version control and Code Collaboration",
-        ],
-    },
-    {
-        title: "CITS (part-time)",
-        // location: "Mae Fah Luang University, Chiang Rai",
-        // date: "Feb 2024 - present",
-        date: "H3 Academy | Feb 2023 - Dec 2023",
+        date: "Mae Fah Luang University, Chiang Rai | Feb 2023 - present",
         description: [
             "Responsible for assisting with writing articles and posting them on the website",
             "Used: Vue, Nuxt, Node, Javascript, MySQL, Git for version control and Code Collaboration",
@@ -79,16 +99,16 @@ const Timeline = () => {
                         <div className="relative flex flex-col items-center">
                             {/* Timeline Line */}
                             {/* <div className="absolute h-full w-1 bg-blue-800"></div> */}
-                            <div className="absolute h-[975px] w-1 bg-[#335384]"></div>
+                            <div className="absolute h-[1004px] w-1 bg-[#335384]"></div>
 
                             {/* Timeline Points */}
                             <div className="relative z-10 w-4 h-4 border-4 border-[#335384] rounded-full bg-white mb-10 "></div>
 
                             {/* Last Timeline Point with Hollow Circle */}
                             <div className="relative mt-[155px] z-10 w-4 h-4 border-4 border-[#335384] rounded-full bg-white"></div>
+                            <div className="relative mt-[196px] z-10 w-4 h-4 border-4 border-[#335384] rounded-full bg-white"></div>
                             <div className="relative mt-[140px] z-10 w-4 h-4 border-4 border-[#335384] rounded-full bg-white"></div>
                             <div className="relative mt-[252px] z-10 w-4 h-4 border-4 border-[#335384] rounded-full bg-white"></div>
-                            <div className="relative mt-[168px] z-10 w-4 h-4 border-4 border-[#335384] rounded-full bg-white"></div>
 
                             {/* T-shaped horizontal line */}
                             {/* <div className="relative rounded w-4 h-1 bg-[#335384] mt-[165px]"></div> */}

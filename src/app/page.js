@@ -132,7 +132,7 @@ export default function Home() {
           {/* </div> */}
         </div>
         {/* Cover Letter Link outside, positioned independently */}
-        {/* <div className="fixed top-20 right-4">
+        <div className="fixed top-20 right-4">
           <p>Please click the link below</p>
           <p>to see the Cover Letter</p>
           <a className="underline text-blue-500 hover:text-blue-300" target='blank'
@@ -159,11 +159,14 @@ export default function Home() {
             // href="
             // https://docs.google.com/document/d/1DsZ0eOvTFFTrSEZ5JFlzoOwuMKcaVdPKkfvoaQQ6zoI/edit?usp=sharing
             // " //! already graduated
+            // href="
+            // https://docs.google.com/document/d/1kHkLOe-we75FX3vu3RB3wV7zU5bNw8ry3j4NjIC_2H0/edit?usp=sharing
+            // " //! already graduated
             href="
-            https://docs.google.com/document/d/1kHkLOe-we75FX3vu3RB3wV7zU5bNw8ry3j4NjIC_2H0/edit?usp=sharing
-            " //! already graduated
+            https://docs.google.com/document/d/1HPgsM1UCsrMOkV3vSXcDQwapCUzct9cTPBze72d9IR0/edit?usp=sharing
+            // " //! KHRG
           >Cover Letter</a>
-        </div> */}
+        </div>
       </div>
 
       {/* Second Page */}

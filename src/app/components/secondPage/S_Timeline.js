@@ -6,13 +6,15 @@ import { UserGroupIcon } from '@heroicons/react/solid';
 
 const timelineData = [
     {
-        title: "Loyalty program project",
+        title: "MFU - ATA IT project (Loyalty program)",
+        // title: "Loyalty program project",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Vocational center | August 2022 - December 2022",
+        date: "Mae Fah Luang University, Chiang Rai | August 2022 - December 2022",
+        // date: "Vocational center | August 2022 - December 2022",
         description: [
             "Develop an application Loyalty Program that enables employees to collect points for participating in events.",
-            "Used: Figma, Next, UI-Library, Node, Javascript, MongoDB, Git for version control and Code Collaboration",
+            "Used: Figma, Next, UI-Library, Node, Javascript, MongoDB, Git",
         ],
 
     },
@@ -20,10 +22,10 @@ const timelineData = [
         title: "MLII",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Vocational center | Aug 2022 - Nov 2022",
+        date: "Mae Fah Luang University, Chiang Rai | Aug 2022 - Nov 2022",
         description: [
             "Add subtitle to the Professor move on the Youtube Channel",
-            "Used: Academy Studio, studio.youtube",
+            "Used: MFU Academy Studio, studio.youtube",
         ],
 
     },
@@ -31,7 +33,7 @@ const timelineData = [
         title: "Student Union Member",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Bootcamp | March 2022 - Aug 2022",
+        date: "Mae Fah Luang University, Chiang Rai | March 2022 - Aug 2022",
         description: [
             "A part of the student union group in Hackathon bootcamp, responsible for preparing and taking part in the school's activities",
         ],
@@ -52,7 +54,7 @@ const timelineData = [
         title: "Volunteer and Internship",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Mae Tao Clinic | Sep 2019",
+        date: "Mae Tao Clinic, Mae Sot | Sep 2019",
         description: [
             "Doing volunteer and internship at Mae Tao Clinic as a GED graduated student in the Admin department.",
         ],
@@ -62,10 +64,12 @@ const timelineData = [
 
 const educationData = [
     {
-        title: "Fullstack Training",
+        title: "Bachelor degree of Software Engineering",
+        // title: "Fullstack Training",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "CodeCamp | Jun 2021 - 2024",
+        date: "Mae Fah Luang University, Chiang Rai | Jun 2021 - Jun 2025",
+        // date: "CodeCamp | Jun 2021 - 2024",
         description: [
             "Studied subjects: Web, Mobile & Platform development, Software Project Management, Software Business Entrepreneurship, Enterprise Architecture and Digital Strategy, SRAS, etc.",
         ],
@@ -85,7 +89,7 @@ const educationData = [
         title: "GED Diploma",
         // location: "Mae Fah Luang University, Chiang Rai",
         // date: "Feb 2024 - present",
-        date: "Wisdom Education Foundation | Apr 2019 - Jun 2018",
+        date: "BEAM Education Foundation| Apr 2019 - Jun 2018",
         description: [
             "Studied 4 subjects: Science, Social Studies, Mathematics, and Language Arts",
             "GED (General Education Development) US High School Diploma, GPA 3.14",
@@ -263,23 +267,28 @@ const S_Timeline = () => {
                     {/* <div className=" grid grid-cols-2 gap-0 bg-lime-500"> */}
                     {/* First reference */}
                     <div className='ml-2 w-[307px]'>
-                        <h3 className="font-semibold text-lg">Naw Grace Paw</h3>
-                        {/* <h3 className="font-semibold text-lg">Assistant Prof. Dr. Naw Sheerlittanula</h3> */}
+                        {/* <h3 className="font-semibold text-lg">Naw Grace Paw</h3> */}
+                        <h3 className="font-semibold text-lg">Assistant Prof. Dr. Naw Sheerlittanula</h3>
                         <p className="font-semibold text-[#5ba7d1]">Dean</p>
                         {/* <ul className="mt-2 text-sm text-gray-600 space-y-1"> */}
-                        <ul className="mt-7 space-y-1">
-                            <li>• Tel: +66 (0) 828 841 437</li>
-                            <li>• E-mail: nawgracepaw1961@gmail.com</li>
+                        <ul className="mt-6 space-y-1">
+                            {/* <li>• Tel: +66 (0) 828 841 437</li> */}
+                            <li>• Tel: +66 (0) 5391 6757</li>
+                            <li>• E-mail: nacha.cho@mfu.ac.th</li>
+                            {/* <li>• E-mail: nawgracepaw1961@gmail.com</li> */}
                         </ul>
                     </div>
                     {/* Second reference */}
                     <div className=''>
-                        <h3 className="font-semibold text-lg">Saifon Phaisutthi</h3>
-                        <p className="font-semibold text-[#5ba7d1]">Applied Digital Technology Supervisor</p>
+                        <h3 className="font-semibold text-lg">Anna Adams</h3>
+                        {/* <h3 className="font-semibold text-lg">Saifon Phaisutthi</h3> */}
+                        <p className="font-semibold text-[#5ba7d1]">Sunshine Orchard Administration</p>
+                        {/* <p className="font-semibold text-[#5ba7d1]">Applied Digital Technology Supervisor</p> */}
                         {/* <ul className="mt-2 text-sm text-gray-600 space-y-1"> */}
                         <ul className="mt-7 space-y-1">
-                            <li>• Tel: +66 (0) 613 209 143</li>
-                            <li>• E-mail: saifon.phaisutthi@gmail.com</li>
+                            <li>• Tel: +66 (0) 828 841 437</li>
+                            {/* <li>• Tel: +66 (0) 613 209 143</li> */}
+                            <li>• E-mail: sunshineorr.hardcenter@gmail.com</li>
                         </ul>
                     </div>
                     {/* </div> */}
