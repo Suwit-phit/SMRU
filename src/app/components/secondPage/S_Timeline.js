@@ -268,7 +268,8 @@ const S_Timeline = () => {
                     {/* First reference */}
                     <div className='ml-2 w-[307px]'>
                         {/* <h3 className="font-semibold text-lg">Naw Grace Paw</h3> */}
-                        <h3 className="font-semibold text-lg">Assistant Prof. Dr. Naw Sheerlittanula</h3>
+                        {/* <h3 className="font-semibold text-lg">Assistant Prof. Dr. Naw Sheerlittanula</h3> */}
+                        <h3 className="font-semibold text-lg">Assistant Prof. Dr. Nacha Chondamrongkul</h3>
                         <p className="font-semibold text-[#5ba7d1]">Dean</p>
                         {/* <ul className="mt-2 text-sm text-gray-600 space-y-1"> */}
                         <ul className="mt-6 space-y-1">
