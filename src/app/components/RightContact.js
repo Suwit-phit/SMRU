@@ -6,18 +6,40 @@ export default function RightContact() {
     // <div className="flex mt-[60px] ml-1 flex-col bg-emerald-400">
     <div className="flex mt-[10px] ml-1 flex-col ">
       <div>
-        <h1 className="text-4xl font-bold text-[#335384] mt-6">SAW TAR SO GAY HTOO HTOO</h1>
+        <h1 className="text-4xl font-bold text-[#335384] mt-6">
+          SAW TAR SO GAY HTOO HTOO
+        </h1>
         {/* <h1 className="text-3xl font-bold text-[rgb(51,83,132)] uppercase mt-8">
           suwit phithakphatphon
         </h1> */}
-        <p className=" tracking-[10px] text-[#5ba7d1] text-xl font-semibold mt-3">
+        <p className=" tracking-[10px] text-[#5ba7d1] text-xl font-semibold mt-1">
           PERSONAL PROFILE
         </p>
         {/* <hr className="border-t-2 border-gray-300 my-2 rounded" /> */}
         <hr className="border-t-2 border-[#eff0f2] -mt-1 my-2 w-[353px] rounded" />
       </div>
       <div className="-mt-2">
-        <p className="text-lg mt-2 mb-3">
+        <p className="text-lg mt-0 mb-1">
+          &nbsp;&nbsp;I am a committed, self-motivated, and hardworking
+          individual with extensive volunteering and community engagement
+          experience. Through academic, professional, and extracurricular
+          activities, I have developed strong communication, teamwork,
+          organizational, and problem-solving skills while working with people
+          from diverse backgrounds. I hold a Bachelor&apos;s degree in Software
+          Engineering from Mae Fah Luang University, where I gained experience
+          working with data, computer systems, and database-related
+          technologies.
+        </p>
+        <p className="text-lg mb-2">
+          &nbsp;&nbsp;I am seeking an opportunity to apply and further develop
+          my skills, knowledge, and experience in data management and
+          administrative support while contributing meaningfully to
+          organizational goals and positive community impact. I am eager to
+          learn, collaborate effectively with others, and support research and
+          public health initiatives through accuracy, responsibility, and
+          continuous professional growth.
+        </p>
+        {/* <p className="text-lg mt-2 mb-3">
           &nbsp;&nbsp;I am a committed, self-motivated, and hardworking
           individual with extensive volunteering and community engagement
           experience. Through academic, professional, and extracurricular
@@ -31,7 +53,7 @@ export default function RightContact() {
           my skills, knowledge, and experience while contributing meaningfully
           to organizational goals and supporting positive social impact through
           continuous learning, collaboration, and professional growth.
-        </p>
+        </p> */}
         {/* <p className="text-lg">
           &nbsp;&nbsp;I am now seeking the opportunity to gain real-world
           experience where I can apply the knowledge I’ve acquired in the

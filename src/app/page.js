@@ -162,9 +162,12 @@ export default function Home() {
             // href="
             // https://docs.google.com/document/d/1kHkLOe-we75FX3vu3RB3wV7zU5bNw8ry3j4NjIC_2H0/edit?usp=sharing
             // " //! already graduated
+            // href="
+            // https://docs.google.com/document/d/1HPgsM1UCsrMOkV3vSXcDQwapCUzct9cTPBze72d9IR0/edit?usp=sharing
+            // // " //! KHRG
             href="
-            https://docs.google.com/document/d/1HPgsM1UCsrMOkV3vSXcDQwapCUzct9cTPBze72d9IR0/edit?usp=sharing
-            // " //! KHRG
+            https://docs.google.com/document/d/121YMuLrjCcDQ0GMCCDEmAi74uQzxZeqvDlIVOGjlRgU/edit?usp=sharing
+            // " //! SMRU
           >Cover Letter</a>
         </div>
       </div>
