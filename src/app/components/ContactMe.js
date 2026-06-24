@@ -86,7 +86,8 @@ const ContactMe = () => {
           //   href="
           //             https://suwit-phit-graduate-resume-cv-taupe.vercel.app/
           //             "
-          href="https://khrg.vercel.app/"
+          // href="https://khrg.vercel.app/"
+          href="https://smru-five.vercel.app/"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
